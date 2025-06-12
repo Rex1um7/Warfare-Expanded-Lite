@@ -963,7 +963,7 @@
 		"cost": 40,
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
-		"uniques": ["[-10]% Strength <vs [Infantry] units>"]
+		"uniques": ["[-15]% Strength <vs [Infantry] units> <when defending>"]
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
 	},
@@ -976,7 +976,7 @@
 		"cost": 40,
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
-		"uniques": ["[-10]% Strength <vs [Infantry] units>"]
+		"uniques": ["[-15]% Strength <vs [Infantry] units> <when defending>"]
 		"replaces": "Archer",
 		"uniqueTo": "Babylon",
 		"upgradesTo": "Composite Bowman",
@@ -991,7 +991,7 @@
 		"cost": 36,
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Construction",
-		"uniques": ["[-10]% Strength <vs [Infantry] units>"]
+		"uniques": ["[-15]% Strength <vs [Infantry] units> <when defending>"]
 		"replaces": "Archer",
 		"uniqueTo": "The Maya",
 		"upgradesTo": "Composite Bowman",
@@ -1009,7 +1009,7 @@
 		"cost": 40,
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
-		"uniques": ["[-20]% Strength <vs [Infantry] units>"]
+		"uniques": ["[-20]% Strength <vs [Infantry] units> <when defending>"]
 		"upgradesTo": "Skirmisher",
 		"attackSound": "arrow"
 	},
@@ -1022,7 +1022,7 @@
 		"cost": 75,
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
-		"uniques": ["[-10]% Strength <vs [Infantry] units>"]
+		"uniques": ["[-15]% Strength <vs [Infantry] units> <when defending>"]
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
 	},
@@ -1036,7 +1036,7 @@
 		"requiredTech": "Machinery",
 		"upgradesTo": "Cannon",
 		"obsoleteTech": "Chemistry",
-		"uniques": ["[-10]% Strength <vs [Infantry] units>"]
+		"uniques": ["[-15]% Strength <vs [Infantry] units> <when defending>"]
 		"attackSound": "arrow"
 	},
 	{
@@ -1052,7 +1052,7 @@
 		"upgradesTo": "Cannon",
 		"obsoleteTech": "Chemistry",
 		"promotions": ["[Chu-Ko-Nu] ability"],
-		"uniques": ["[-10]% Strength <vs [Infantry] units>"]
+		"uniques": ["[-15]% Strength <vs [Infantry] units> <when defending>"]
 		"attackSound": "arrow"
 	},
 	{
@@ -1069,7 +1069,7 @@
 		"upgradesTo": "Cannon",
 		"obsoleteTech": "Chemistry",
 		"promotions": ["[Longbowman] ability"],
-		"uniques": ["[-10]% Strength <vs [Infantry] units>"]
+		"uniques": ["[-15]% Strength <vs [Infantry] units> <when defending>"]
 		"attackSound": "arrow"
 	},
 	{
@@ -1084,7 +1084,7 @@
 		"obsoleteTech": "Industrialization",
 		"uniques": [
             //"Never appears as a Barbarian unit", 
-            "[-15]% Strength <vs [Infantry] units>"
+            "[-15]% Strength <vs [Infantry] units> <when defending>",
         ],
 		"attackSound": "cannon"
 	},
@@ -1100,7 +1100,7 @@
 		"obsoleteTech": "Ballistics",
 		"uniques": [
             //"Never appears as a Barbarian unit", 
-            "[-15]% Strength <vs [Infantry] units>"
+            "[-15]% Strength <vs [Infantry] units> <when defending>",
         ],
 		"attackSound": "cannon"
 	},
@@ -1114,7 +1114,7 @@
 		"requiredTech": "Ballistics",
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Field Howitzer",
-		"uniques": ["[-10]% Strength <vs [Infantry] units>"],
+		"uniques": ["[-15]% Strength <vs [Infantry] units> <when defending>"],
 		"attackSound": "artilllery"
 	},
 	{
@@ -1129,7 +1129,7 @@
 		"upgradesTo": "Field Artillery",
 		"uniques": [
             //"Never appears as a Barbarian unit", 
-            "[-10]% Strength <vs [Infantry] units>"
+            "[-15]% Strength <vs [Infantry] units> <when defending>"
         ],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
@@ -1144,7 +1144,7 @@
 		"requiredTech": "Robotics",
 		"uniques": [
             //"Never appears as a Barbarian unit", 
-            "[-10]% Strength <vs [Infantry] units>"
+            "[-15]% Strength <vs [Infantry] units> <when defending>"
         ],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
